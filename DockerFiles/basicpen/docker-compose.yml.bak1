@@ -1,0 +1,16 @@
+version: '3.0'
+services:
+  web:
+    build:
+      context: ./apache
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    hostname: willow
+  ssh:
+    build:
+      context: ./ssh
+      dockerfile: Dockerfile
+    ports:
+      - "22:22"
+    hostname: willow

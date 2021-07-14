@@ -1,0 +1,12 @@
+version: '3.0'
+services:
+  web:
+    image: apache
+    ports:
+      - "80:80"
+    hostname: willow
+  ssh:
+    image: ssh
+    ports:
+      - "22:22"
+    hostname: willow
