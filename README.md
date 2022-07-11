@@ -1,5 +1,5 @@
 # willow-ctf
-Willow-ctf consists of simple ctf challenges made with **[docker](https://github.com/docker/docker.github.io)** and **[docker-compose](https://github.com/docker/compose)** for my college project.
+Willow-ctf consists of simple ctf challenges made with **[docker](https://github.com/docker/docker.github.io)** & **[docker-compose](https://github.com/docker/compose)** for my college project.
 
 There are three challenges in this ctf related to **web server vulnerabilites**. <br />
  - basicpen <br />
